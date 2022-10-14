@@ -7,10 +7,10 @@ import (
 	"io"
 	"time"
 
-	"nhooyr.io/websocket"
-	"nhooyr.io/websocket/internal/test/assert"
-	"nhooyr.io/websocket/internal/test/xrand"
-	"nhooyr.io/websocket/internal/xsync"
+	"github.com/manuelpuyol/websocket"
+	"github.com/manuelpuyol/websocket/internal/test/assert"
+	"github.com/manuelpuyol/websocket/internal/test/xrand"
+	"github.com/manuelpuyol/websocket/internal/xsync"
 )
 
 // EchoLoop echos every msg received from c until an error
